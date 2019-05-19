@@ -1,0 +1,103 @@
+/* barra de navegación*/
+#logo{
+    height: 80px;
+    width:100px;
+}
+.w-nav-button.w--open {
+    background-color: #ff444e;
+}
+
+.menu-li {
+    background: -webkit-linear-gradient(orange,deeppink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu-li:hover{
+    background: -webkit-linear-gradient(#ff444e,#ff444e);
+    -webkit-text-fill-color: white;
+}
+/* slider*/
+
+.sp-parallax-bg {
+    background: url(../images/slider/fondo_slider.png) repeat-x scroll 0 0;
+}
+.experinc-box-h3{
+    color:#ff444e;
+}
+#experinc-box-p{
+    color:#ff444e;
+}
+
+/* about*/
+
+.experinc-box-h3{
+    line-height: normal;
+}
+
+.about-parlex{
+    background: rgba(255, 46, 0, 0.66)
+}
+
+.ex-btn-two{
+    color:#ff444e;
+    border: 1px solid #ff444e;
+    background: none;
+}
+.ex-btn-two:hover{
+    color: white;
+    background: #ff444e ;
+}
+.ex-btn{
+    background: #FA8151;
+}
+.ex-btn:hover{
+    color:#FA8151;
+    border: 1px solid #ff444e;
+    background: transparent;
+}
+#imagen-que-es{
+    padding-top: 30%;
+}
+.exp-back {
+    background-image: none;
+}
+.service-parlex {
+    background-image: url('../images/Background-01.jpg');
+}
+.parlex-back{
+    background: rgba(255, 8, 0, 0.71);
+}
+/* contacto*/
+.parlex8-back{
+    background: rgba(255, 0, 35, 0.72)
+}
+/* team */
+.team-parlex{
+    background-image: url("../images/fondo-contacto.jpg");
+}
+.team-image {
+    background: rgba(255, 15, 0, 0.62);
+}
+/*formulario*/
+.w-form{
+    color: white;
+
+}
+.w-button{
+    color:black;
+    border: 1px solid #ff444e;
+    background: white;
+}
+.w-button:hover{
+    color: #ff444e;
+    background:white ;
+}
+/*footer*/
+.footer-logo{
+    height: 120px;
+    width: 150px;
+}
+.fotter-social-wrap{
+    margin-left: 50%;
+    margin-right: 50%;
+}
